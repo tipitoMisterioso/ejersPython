@@ -4,5 +4,9 @@ import math
 
 pi = math.pi
 
-print("Ingrese el radio: ")
+radio = float(input("Ingrese el radio del circulo: "))
+area = pi * radio ** 2
+
+print("El area del circulo es {}".format(area))
+
 
